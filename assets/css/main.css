@@ -277,6 +277,7 @@ img {
 
 .profile-image {
   flex: 0 0 200px;
+  justify-items: center;
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
@@ -284,7 +285,7 @@ img {
 .profile-image img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 0%;
   object-fit: cover;
   border: 3px solid white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
