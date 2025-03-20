@@ -1,22 +1,18 @@
 # Informazioni personali
 title: Damiano Paoli
-position: Ricercatore
+position: PhD Student
 institution: Alma Mater Studiorum - University of Bologna
 bio: >-
-  Qui puoi inserire la tua biografia più estesa, includendo informazioni sulla tua formazione, 
-  esperienza professionale, interessi di ricerca, riconoscimenti ricevuti e altri dettagli rilevanti.
-  Questa sezione può essere di diverse righe e apparirà nella pagina principale del sito.
-  Puoi descrivere i tuoi obiettivi di ricerca, il tuo approccio metodologico,
-  e le principali aree di interesse. È anche possibile menzionare collaborazioni significative
-  e progetti in corso. Personalizza questa sezione per rappresentare al meglio 
-  il tuo profilo accademico e professionale.
+  Hello there!
+  I'm a 3rd-year PhD student in Economics at the University of Bologna.
+  I carry out my research in the field of experimental and behavioural economics. My research interests are coordination dilemmas, public goods games, fairness, Artificial Intelligence and human-machine interaction.
 
 # Informazioni di contatto
-email: email@example.com
-department: Dipartimento di ...
-office: Edificio X, Ufficio Y
-address: Indirizzo completo dell'istituzione
-phone: "+39 123 456 7890"
+email: damiano.paoli3@unibo.it
+department: Department of Economics
+office: Office 141, Piazza Scaravilli 2, Bologna
+address: 
+phone: 
 
 # Collegamenti social e accademici
 social_links:
@@ -27,14 +23,6 @@ social_links:
   scholar: # ID di Google Scholar
   orcid: # ID ORCID
   researchgate: # Nome utente di ResearchGate
-
-# Interessi di ricerca
-research_interests:
-  - Interesse di ricerca 1
-  - Interesse di ricerca 2
-  - Interesse di ricerca 3
-  - Interesse di ricerca 4
-  - Interesse di ricerca 5
 
 # Pubblicazioni in evidenza
 featured_publications:
