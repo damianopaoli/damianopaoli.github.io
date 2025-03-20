@@ -29,7 +29,7 @@ featured_publications:
 
 # URL base e configurazioni
 baseurl: "" # il percorso sottodominio del sito, es. /blog
-url: "" # il dominio base, es. http://example.com
+url: "damianopaoli.github.io" # il dominio base, es. http://example.com
 
 # Configurazione di build
 markdown: kramdown

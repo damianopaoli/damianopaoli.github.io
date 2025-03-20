@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Didattica
+title: Conferences
 permalink: /conferences/
 ---
 
