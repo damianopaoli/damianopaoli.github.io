@@ -197,17 +197,7 @@ title: Home
   </div>
 
   <div class="content-section">
-    <h2>Interessi di Ricerca</h2>
-    <div class="research-interests">
-      <ul>
-        {% for interest in site.research_interests %}
-        <li>{{ interest }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-
-  <div class="content-section">
+    {% if site.featured_publications %}
     <h2>Pubblicazioni Selezionate</h2>
     <ul class="publication-list">
       {% for publication in site.featured_publications %}
@@ -234,21 +224,6 @@ title: Home
     <a href="{{ '/publications' | relative_url }}" class="btn btn-primary"
       >Tutte le Pubblicazioni</a
     >
-  </div>
-
-  <div class="content-section">
-    <h2>Ultimi Articoli</h2>
-    <div class="posts-grid">
-      {% for post in site.posts limit:3 %}
-      <div class="post-card">
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</p>
-        <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url | relative_url }}" class="read-more"
-          >Leggi tutto →</a
-        >
-      </div>
-      {% endfor %}
-    </div>
+    {% endif %}
   </div>
 </div>

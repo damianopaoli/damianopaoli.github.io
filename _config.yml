@@ -11,8 +11,8 @@ bio: >-
 email: damiano.paoli3@unibo.it
 department: Department of Economics
 office: Office 141, Piazza Scaravilli 2, Bologna
-address: 
-phone: 
+address:
+phone:
 
 # Collegamenti social e accademici
 social_links:
@@ -26,28 +26,6 @@ social_links:
 
 # Pubblicazioni in evidenza
 featured_publications:
-  - title: Titolo della pubblicazione 1
-    authors: Cognome, N., Coautore, A., Coautore, B.
-    journal: Nome della Rivista, Volume(Numero), pagine
-    year: 2025
-    doi: 10.1000/xyz123
-    pdf: /assets/papers/paper1.pdf
-    code: https://github.com/username/repository
-
-  - title: Titolo della pubblicazione 2
-    authors: Cognome, N., Coautore, C., Coautore, D.
-    journal: Nome della Rivista, Volume(Numero), pagine
-    year: 2024
-    doi: 10.1000/xyz456
-    pdf: /assets/papers/paper2.pdf
-
-  - title: Titolo della pubblicazione 3
-    authors: Coautore, E., Cognome, N., Coautore, F.
-    journal: Nome della Rivista, Volume(Numero), pagine
-    year: 2023
-    doi: 10.1000/xyz789
-    pdf: /assets/papers/paper3.pdf
-    code: https://github.com/username/repository2
 
 # URL base e configurazioni
 baseurl: "" # il percorso sottodominio del sito, es. /blog
