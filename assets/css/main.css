@@ -298,6 +298,7 @@ img {
 .dropdown-toggle {
   display: inline-flex;
   align-items: center;
+  gap: 0.5rem; /* Spazio tra il testo e la freccia */
 }
 
 .dropdown-toggle::after {
@@ -305,10 +306,10 @@ img {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-left: 0.5em;
   border-top: 0.3em solid;
   border-right: 0.3em solid transparent;
   border-left: 0.3em solid transparent;
+  transition: transform 0.2s;
 }
 
 .dropdown-content {
@@ -630,6 +631,79 @@ img {
   .content-section h2:after {
     left: 50%;
     transform: translateX(-50%);
+  }
+  .site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem var(--spacing-unit);
+  }
+
+  .site-nav {
+    order: 2;
+  }
+
+  /* Miglioramento dropdown in modalità mobile */
+  .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .dropdown-content {
+    width: 100%;
+    margin-left: 1rem;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+  }
+
+  .dropdown-content a {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  /* Allineamento verticale dei componenti del menu */
+  .theme-toggle,
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px; /* Altezza fissa per entrambi gli elementi */
+  }
+
+  .menu-icon {
+    padding: 0;
+    margin: 0;
+  }
+
+  .theme-toggle {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0; /* Rimuove qualsiasi offset */
+  }
+
+  .theme-toggle svg,
+  .menu-icon svg {
+    vertical-align: middle; /* Allineamento verticale corretto */
+  }
+
+  /* Miglioramento spazio nel menu hamburger */
+  .nav-trigger:checked ~ .trigger {
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
   }
 }
 
