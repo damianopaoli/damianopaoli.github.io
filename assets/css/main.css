@@ -215,6 +215,23 @@ img {
   transform: rotate(30deg);
 }
 
+.menu-icon svg path {
+  fill: var(--text-color);
+  transition: fill 0.3s ease;
+}
+
+/* Assicurarsi che lo sfondo dell'icona hamburger sia trasparente */
+.menu-icon {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Migliorato il contrasto per il menu dropdown in tema scuro */
+[data-theme="dark"] .nav-trigger:checked ~ .trigger {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
+}
+
 /* Versione desktop */
 @media screen and (min-width: 769px) {
   /* Nascondi il toggle mobile */
