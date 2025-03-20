@@ -246,6 +246,37 @@
             updateToggleState(newTheme);
           }
         });
+
+        // Gestione dropdown mobile
+        const dropdowns = document.querySelectorAll(".dropdown");
+
+        dropdowns.forEach((dropdown) => {
+          const toggle = dropdown.querySelector(".dropdown-toggle");
+
+          toggle.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            // Chiude tutti gli altri dropdown
+            dropdowns.forEach((d) => {
+              if (d !== dropdown && d.classList.contains("active")) {
+                d.classList.remove("active");
+              }
+            });
+
+            // Toggle stato active - permette di chiudere cliccando nuovamente
+            dropdown.classList.toggle("active");
+          });
+        });
+
+        // Chiudi dropdown quando si clicca fuori
+        document.addEventListener("click", function (e) {
+          if (!e.target.closest(".dropdown")) {
+            dropdowns.forEach((d) => {
+              d.classList.remove("active");
+            });
+          }
+        });
       });
     </script>
   </body>

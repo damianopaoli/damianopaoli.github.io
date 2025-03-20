@@ -187,12 +187,12 @@ img {
   text-decoration: none;
 }
 
-/* Theme toggle */
+/* Sistemazione toggle tema per desktop e mobile */
 .theme-toggle {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.25rem;
+  margin-right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +201,6 @@ img {
   width: 36px;
   height: 36px;
   transition: background-color 0.3s ease;
-  margin-left: 0.5rem;
 }
 
 .theme-toggle:hover {
@@ -214,6 +213,28 @@ img {
 
 .theme-toggle:hover svg {
   transform: rotate(30deg);
+}
+
+/* Versione desktop */
+@media screen and (min-width: 769px) {
+  /* Nascondi il toggle mobile */
+  #theme-toggle-mobile {
+    display: none;
+  }
+
+  /* Mostra il toggle desktop */
+  #theme-toggle-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+
+  /* Allinea items nel trigger per posizionare bene il toggle */
+  .site-nav .trigger {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* Mobile nav */
@@ -244,6 +265,59 @@ img {
 
   .nav-trigger ~ .trigger {
     display: none;
+  }
+
+  /* Nascondi il toggle desktop */
+  #theme-toggle-desktop {
+    display: none;
+  }
+
+  /* Mostra il toggle mobile */
+  #theme-toggle-mobile {
+    display: flex;
+    order: 1;
+  }
+
+  .site-nav {
+    order: 2;
+  }
+
+  /* Allineamento verticale dei componenti del menu */
+  .theme-toggle,
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px; /* Altezza fissa per entrambi gli elementi */
+  }
+
+  .menu-icon {
+    padding: 0;
+    margin: 0;
+  }
+
+  .theme-toggle {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0; /* Rimuove qualsiasi offset */
+  }
+
+  .theme-toggle svg,
+  .menu-icon svg {
+    vertical-align: middle; /* Allineamento verticale corretto */
+  }
+
+  /* Miglioramento spazio nel menu hamburger */
+  .nav-trigger:checked ~ .trigger {
+    margin-top: 0.75rem;
+    padding-top: 0.5rem;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
@@ -298,7 +372,7 @@ img {
 .dropdown-toggle {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem; /* Spazio tra il testo e la freccia */
+  gap: 0.25rem; /* Spazio ridotto tra il testo e la freccia */
 }
 
 .dropdown-toggle::after {
@@ -306,6 +380,7 @@ img {
   display: inline-block;
   width: 0;
   height: 0;
+  margin-left: 0;
   border-top: 0.3em solid;
   border-right: 0.3em solid transparent;
   border-left: 0.3em solid transparent;
@@ -343,27 +418,70 @@ img {
   display: block;
 }
 
-/* Mobile dropdown */
+/* Dropdown mobile migliorato con animazioni */
 @media screen and (max-width: 768px) {
+  /* Contenitore dropdown */
+  .dropdown {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Toggle dropdown */
+  .dropdown-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0.25rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  /* Animazione rotazione freccia */
+  .dropdown-toggle::after {
+    transition: transform 0.3s ease;
+  }
+
+  /* Contenuto dropdown */
   .dropdown-content {
+    display: block;
     position: static;
+    background-color: transparent;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
     box-shadow: none;
     border: none;
-    padding-left: 1rem;
-    padding-top: 0;
-    display: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
   }
 
-  .dropdown:hover .dropdown-content {
-    display: block;
+  /* Link nel dropdown */
+  .dropdown-content a {
+    padding: 0.75rem 1rem;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
-  .dropdown-toggle::after {
-    margin-left: auto;
+  /* Classe per il toggle dropdown attivo */
+  .dropdown.active .dropdown-toggle::after {
+    transform: rotate(180deg);
   }
 
-  .theme-toggle {
-    margin-top: 0.75rem;
+  .dropdown.active .dropdown-content {
+    max-height: 200px; /* Altezza massima sufficiente per il contenuto */
+    opacity: 1;
+    padding: 0.5rem 0;
+  }
+
+  .dropdown.active .dropdown-content a {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -599,6 +717,58 @@ img {
   font-size: 0.9rem;
 }
 
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+/* CV Download Button */
+.cv-download {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.cv-download .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+/* Page & Post Content */
+.page-title,
+.post-title {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-meta {
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  margin-bottom: 2rem;
+}
+
+/* Media query per dispositivi mobili */
 @media screen and (max-width: 768px) {
   .profile-section {
     flex-direction: column;
@@ -632,78 +802,9 @@ img {
     left: 50%;
     transform: translateX(-50%);
   }
-  .site-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem var(--spacing-unit);
-  }
 
-  .site-nav {
-    order: 2;
-  }
-
-  /* Miglioramento dropdown in modalità mobile */
-  .dropdown-toggle {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0.5rem 0;
-  }
-
-  .dropdown-content {
-    width: 100%;
-    margin-left: 1rem;
-    background-color: transparent;
-    box-shadow: none;
-    border: none;
-  }
-
-  .dropdown-content a {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .dropdown-content a:last-child {
-    border-bottom: none;
-  }
-
-  .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  /* Allineamento verticale dei componenti del menu */
-  .theme-toggle,
-  .menu-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 36px; /* Altezza fissa per entrambi gli elementi */
-  }
-
-  .menu-icon {
-    padding: 0;
-    margin: 0;
-  }
-
-  .theme-toggle {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    top: 0; /* Rimuove qualsiasi offset */
-  }
-
-  .theme-toggle svg,
-  .menu-icon svg {
-    vertical-align: middle; /* Allineamento verticale corretto */
-  }
-
-  /* Miglioramento spazio nel menu hamburger */
-  .nav-trigger:checked ~ .trigger {
-    margin-top: 0.75rem;
-    padding-top: 0.5rem;
+  .footer-col-wrapper {
+    flex-direction: column;
   }
 }
 
