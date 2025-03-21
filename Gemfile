@@ -10,6 +10,7 @@ gem "jekyll", "~> 4.2.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.7"
+  gem "jekyll-sitemap"  # Aggiunto per generare automaticamente la sitemap
 end
 
 # Aggiungi le gemme necessarie per Ruby 3.4+

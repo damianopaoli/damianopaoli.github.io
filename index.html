@@ -6,7 +6,10 @@ title: Home
 <div class="home-container">
   <div class="profile-section">
     <div class="profile-image">
-      <img src="/assets/img/foto_profilo.jpg" alt="Foto Profilo" />
+      <img
+        src="/assets/img/foto_profilo.jpg"
+        alt="Damiano Paoli, PhD Student in Economics presso l'Università di Bologna, ricercatore in economia sperimentale e comportamentale"
+      />
     </div>
     <div class="profile-info">
       <h1>{{ site.title }}</h1>
@@ -217,4 +220,48 @@ title: Home
     >
     {% endif %}
   </div>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Damiano Paoli",
+      "jobTitle": "PhD Student",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "University of Bologna",
+        "url": "https://www.unibo.it/en"
+      },
+      "url": "{{ site.url }}",
+      "image": "{{ '/assets/img/foto_profilo.jpg' | absolute_url }}",
+      "description": "{{ site.bio | strip_html | strip_newlines | escape }}",
+      "sameAs": [
+        "https://twitter.com/{{ site.social_links.twitter }}",
+        "https://www.linkedin.com/in/{{ site.social_links.linkedin }}",
+        "https://bsky.app/profile/{{ site.social_links.bluesky }}.bsky.social"
+      ],
+      "knowsAbout": [
+        "Experimental Economics",
+        "Behavioral Economics",
+        "Coordination Dilemmas",
+        "Public Goods Games",
+        "Fairness",
+        "Artificial Intelligence",
+        "Human-Machine Interaction"
+      ],
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "University of Bologna",
+        "url": "https://www.unibo.it/en"
+      },
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bologna",
+          "addressCountry": "Italy",
+          "streetAddress": "Piazza Scaravilli 2"
+        }
+      }
+    }
+  </script>
 </div>

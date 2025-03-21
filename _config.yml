@@ -7,6 +7,18 @@ bio: >-
   I'm a 3rd-year PhD student in Economics at the University of Bologna.
   I carry out my research in the field of experimental and behavioural economics. My research interests are coordination dilemmas, public goods games, fairness, Artificial Intelligence and human-machine interaction.
 
+# Metadati SEO migliorati
+description: >-
+  Personal website of Damiano Paoli, PhD in Economics at the University of Bologna.
+  Research in experimental and behavioral economics, coordination, public goods,
+  human-machine interaction, and artificial intelligence.
+author: Damiano Paoli
+keywords: Damiano Paoli, economia sperimentale, università di bologna, PhD economics, behavioral economics, AI, experimental economics, game theory, beni pubblici, fairness, coordinamento
+seo:
+  name: Damiano Paoli
+  type: Person
+google_site_verification: # Inserisci qui il tuo codice di verifica Google
+
 # Informazioni di contatto
 email: damiano.paoli3@unibo.it
 department: Department of Economics
@@ -29,7 +41,7 @@ featured_publications:
 
 # URL base e configurazioni
 baseurl: "" # il percorso sottodominio del sito, es. /blog
-url: "damianopaoli.github.io" # il dominio base, es. http://example.com
+url: "https://damianopaoli.github.io" # il dominio base, es. http://example.com
 
 # Configurazione di build
 markdown: kramdown
@@ -37,6 +49,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Struttura delle pagine
 collections:
