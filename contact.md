@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Contatti
+title: Contacts
 permalink: /contact/
 ---
 
-# Contatti
+# Contacts
 
 Siamo sempre aperti a nuove collaborazioni, domande e feedback. Non esitare a contattarci!
 
