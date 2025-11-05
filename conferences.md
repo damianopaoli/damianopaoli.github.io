@@ -6,6 +6,7 @@ permalink: /conferences/
 
 
 ### 2025
+- **FAIR - NHH**, Visiting period, Norwegian School of Economics, Centre for Experimental Research on Fairness, Inequality and Rationality
 - **13th BEEN Meeting**, University of Bologna (organizer)
 
 ### 2024
