@@ -6,6 +6,12 @@ permalink: /teaching/
 
 ### Teaching Assistant  
 
+
+**Economics for Policy I**, M.Sc. (School of Transnational Governance)  
+*European University Institute (EUI), Florence*  
+Prof. Daniela Iorio  
+Sep 2025 – ongoing
+
 **Field Experiments for Policy Evaluation**, M.Sc.  
 *Alma Mater Studiorum – Università di Bologna*  
 Prof. Denni Tommasi  
@@ -25,15 +31,6 @@ Apr 2024 – ongoing
 *Alma Mater Studiorum – Università di Bologna*  
 Prof. Sergio Pastorello  
 Apr 2024 – ongoing
-
----
-
-**Economics for Policy I**, M.Sc. (School of Transnational Governance)  
-*European University Institute (EUI), Florence*  
-Prof. Daniela Iorio  
-Sep 2025 – ongoing
-
----
 
 **International Economics I**, M.Sc.  
 *Johns Hopkins University – SAIS Europe (Bologna)*  

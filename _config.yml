@@ -1,21 +1,21 @@
 # Informazioni personali
 title: Damiano Paoli
-position: PhD Student
+position: PhD Candidate
 institution: Alma Mater Studiorum - University of Bologna
 bio: >-
   Hello there!<br>
-  I'm a 4th-year PhD student in Economics at the <a href="https://dse.unibo.it/en" target="_blank">University of Bologna</a>.
+  I'm a PhD Candidate in Economics at the <a href="https://dse.unibo.it/en" target="_blank">University of Bologna</a>.
   I carry out my research in the field of experimental and behavioral economics.<br>
   My research interests are Artificial Intelligence and human-machine interaction, fairness, coordination dilemmas, and public goods.<br>
   I'm the local organizer of the <a href="https://sites.google.com/site/ideemeetings" target="_blank">IDEE meetings</a>; if you are interested in presenting, please reach out!
 
 # Metadati SEO migliorati
 description: >-
-  Personal website of Damiano Paoli, PhD in Economics at the University of Bologna.
+  Personal website of Damiano Paoli, PhD Candidate in Economics at the University of Bologna.
   Research in experimental and behavioral economics, coordination, public goods,
   human-machine interaction, and artificial intelligence.
 author: Damiano Paoli
-keywords: Damiano Paoli, economia sperimentale, università di bologna, PhD economics, behavioral economics, AI, experimental economics, game theory, beni pubblici, fairness, coordinamento
+keywords: Damiano Paoli, economia sperimentale, università di bologna, PhD Candidate economics, behavioral economics, AI, experimental economics, game theory, beni pubblici, fairness, coordinamento
 seo:
   name: Damiano Paoli
   type: Person
@@ -34,7 +34,7 @@ social_links:
   twitter: DamianoPaoli
   linkedin: damiano-paoli-386b771b3
   bluesky: damianopaoli
-  scholar: # ID di Google Scholar
+  scholar: hYhcdLAAAAAJ # ID di Google Scholar
   orcid: 0009-0001-3354-3971 # ID ORCID
   researchgate: # Nome utente di ResearchGate
 

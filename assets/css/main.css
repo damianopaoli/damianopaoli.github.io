@@ -734,6 +734,56 @@ img {
   font-size: 0.9rem;
 }
 
+/* Publication abstract dropdown (details/summary) */
+.publication-details {
+  margin-top: 0.75rem;
+}
+
+.publication-summary {
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.publication-summary:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Remove default marker and use a custom caret */
+.publication-summary::-webkit-details-marker {
+  display: none;
+}
+.publication-summary::before {
+  content: "▸";
+  display: inline-block;
+  transform: translateY(-0.02em);
+  transition: transform 0.2s ease;
+}
+
+.publication-details[open] .publication-summary::before {
+  content: "▾";
+}
+
+/* Abstract box styling */
+.publication-details .publication-abstract {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Avoid extra bottom margin from base paragraph rules inside abstract */
+.publication-details .publication-abstract p {
+  margin-bottom: 0;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
