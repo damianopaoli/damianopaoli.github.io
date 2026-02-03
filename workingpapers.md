@@ -13,7 +13,7 @@ permalink: /working-papers/
   <li class="publication-item">
     <h3 class="publication-title">Coordination and leadership: the impact of Artificial Intelligence</h3>
     <p class="publication-meta"><a href="https://www.unibo.it/sitoweb/maria.bigoni/en" target="_blank">Maria Bigoni</a>, Damiano Paoli</p>
-    <p class="publication-meta"><em>State: submitted</em></p>
+    <p class="publication-meta"><em>Status: submitted</em></p>
     <div class="publication-links">
       <a href="https://www.socialscienceregistry.org/trials/12434" target="_blank">AEA RCT registry</a>
     </div>
