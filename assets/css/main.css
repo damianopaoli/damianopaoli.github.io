@@ -796,25 +796,33 @@ img {
 .publication-actions {
   display: flex;
   align-items: center;
-  gap: 0.9rem;
+  gap: 0.6rem;
   flex-wrap: wrap;
 }
 
-/* keep the toggle compact on the actions row */
+.publication-actions details {
+  display: inline-flex;
+  align-items: center;
+}
+
 .publication-actions .publication-details {
   padding-top: 0;
   margin: 0;
 }
 
 .publication-actions .publication-summary {
-  margin-bottom: 0;
+  margin: 0;
   font-size: 0.9rem;
 }
 
-/* remove extra spacing below links in this row */
 .publication-actions .publication-links {
-  margin-bottom: 0;
+  margin: 0;
 }
+
+.publication-links a {
+  margin-right: 0.6rem;
+}
+
 
 /* Buttons */
 .btn {
