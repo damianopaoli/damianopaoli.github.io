@@ -736,7 +736,6 @@ img {
 
 /* tidy publication abstract dropdown */
 .publication-details {
-  margin-top: 0.3rem;
   padding-top: 0.4rem;
 }
 
@@ -782,6 +781,40 @@ img {
   margin: 0.4rem 0;
 }
 
+.publication-links {
+  margin-bottom: 0.25rem;
+}
+
+.publication-details {
+  padding-top: 0.15rem;
+}
+
+.publication-summary {
+  margin-bottom: 0.15rem;
+}
+
+.publication-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+/* keep the toggle compact on the actions row */
+.publication-actions .publication-details {
+  padding-top: 0;
+  margin: 0;
+}
+
+.publication-actions .publication-summary {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+/* remove extra spacing below links in this row */
+.publication-actions .publication-links {
+  margin-bottom: 0;
+}
 
 /* Buttons */
 .btn {
