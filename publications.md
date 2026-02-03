@@ -15,13 +15,7 @@ permalink: /publications/
     </p>
 
     <p class="publication-meta"><em>Italian Economic Journal, 2026.</em></p>
-
-    <div class="publication-links">
-      <a href="https://doi.org/10.1007/s40797-025-00359-w" target="_blank" rel="noopener noreferrer">DOI</a>
-      <a href="https://rdcu.be/e1evS" target="_blank" rel="noopener noreferrer">PDF view</a>
-    </div>
-
-<details class="publication-details">
+    <details class="publication-details">
   <summary class="publication-summary">Abstract</summary>
   <div class="publication-abstract">
     <p>
@@ -46,6 +40,10 @@ permalink: /publications/
     </p>
   </div>
 </details>
+    <div class="publication-links">
+      <a href="https://doi.org/10.1007/s40797-025-00359-w" target="_blank" rel="noopener noreferrer">DOI</a>
+      <a href="https://rdcu.be/e1evS" target="_blank" rel="noopener noreferrer">PDF view</a>
+    </div>
 
   </li>
 </ul>
