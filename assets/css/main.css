@@ -720,18 +720,18 @@ img {
 
 .publication-meta {
   color: var(--light-text);
-  margin-bottom: 0.20rem; /* was 0.5rem */
+  margin-bottom: 0.1rem; /* was 0.5rem */
   font-size: 0.9rem;
 }
 
 /* Make the last meta line (usually journal/year) tighter before Abstract */
 .publication-item .publication-meta:last-of-type {
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Links */
 .publication-links {
-  margin-bottom: 0.15rem; /* tighter */
+  margin-bottom: 0.1rem; /* tighter */
 }
 
 .publication-links a {
@@ -777,7 +777,7 @@ img {
 
 /* Abstract text */
 .publication-abstract {
-  margin-top: 0.15rem;  /* tighter (was 0.4rem) */
+  margin-top: 0.1rem;  /* tighter (was 0.4rem) */
   margin-bottom: 0;     /* avoid extra bottom space */
   color: var(--text-color);
   font-size: 0.94rem;
