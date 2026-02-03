@@ -738,7 +738,6 @@ img {
 .publication-details {
   margin-top: 0.6rem;
   padding-top: 0.4rem;
-  border-top: 1px solid var(--border-color);
 }
 
 .publication-summary {
