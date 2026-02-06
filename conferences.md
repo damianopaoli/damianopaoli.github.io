@@ -5,8 +5,11 @@ permalink: /conferences/
 ---
 
 
+### 2026
+- (scheduled) Spring School in Behavioural Economics, RADY School of Management, UC San Diego; organized by Rady and FAIR
+
 ### 2025
-- **FAIR - NHH**, Visiting period, Norwegian School of Economics (NHH), Centre for Experimental Research on Fairness, Inequality and Rationality (FAIR)
+- **FAIR - NHH**, Visiting period (March - June 2025), Norwegian School of Economics, Centre for Experimental Research on Fairness, Inequality and Rationality
 - **13th BEEN Meeting**, University of Bologna (organizer)
 
 ### 2024
