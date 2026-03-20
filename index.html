@@ -186,40 +186,9 @@ title: Home
   </div>
 
   <div class="content-section">
-    <h2>Bio</h2>
     <div class="bio">{{ site.bio }}</div>
   </div>
 
-  <div class="content-section">
-    {% if site.featured_publications %}
-    <h2>Pubblicazioni Selezionate</h2>
-    <ul class="publication-list">
-      {% for publication in site.featured_publications %}
-      <li class="publication-item">
-        <h3 class="publication-title">{{ publication.title }}</h3>
-        <p class="publication-meta">{{ publication.authors }}</p>
-        <p class="publication-meta">
-          <em>{{ publication.journal }}</em>, {{ publication.year }}
-        </p>
-        <div class="publication-links">
-          {% if publication.pdf %}
-          <a href="{{ publication.pdf }}" target="_blank">PDF</a>
-          {% endif %} {% if publication.doi %}
-          <a href="https://doi.org/{{ publication.doi }}" target="_blank"
-            >DOI</a
-          >
-          {% endif %} {% if publication.code %}
-          <a href="{{ publication.code }}" target="_blank">Codice</a>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-    <a href="{{ '/publications' | relative_url }}" class="btn btn-primary"
-      >Tutte le Pubblicazioni</a
-    >
-    {% endif %}
-  </div>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",

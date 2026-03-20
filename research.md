@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Working Papers
-permalink: /working-papers/
+title: Research
+permalink: /research/
 ---
+
+<h2>Working Papers</h2>
 
 <ul class="publication-list">
 
@@ -32,7 +34,7 @@ permalink: /working-papers/
           human. It examines whether redistributive choices are revised
           differently depending on whether they were made by a human or by AI,
           and disentangles two behavioral mechanisms: a black-box effect stemming
-          from uncertainty about the AI’s decision-making process, and intrinsic
+          from uncertainty about the AI's decision-making process, and intrinsic
           AI aversion reflecting a fundamental reluctance to rely on algorithmic
           judgment.
         </p>
@@ -70,7 +72,7 @@ permalink: /working-papers/
           economic and social settings. Leadership can mitigate this problem by
           providing a focal point through public communication, but the
           effectiveness of such communication relies on shared trust that the
-          leader’s recommendations will be followed by others.
+          leader's recommendations will be followed by others.
         </p>
         <p>
           As generative artificial intelligence (AI) becomes increasingly
@@ -79,15 +81,15 @@ permalink: /working-papers/
           leadership remains an open question. We investigate this issue through
           an online experiment based on the minimum effort game with leadership,
           where leaders could send either a human-written or a ChatGPT-generated
-          message and followers were informed of the message’s source.
+          message and followers were informed of the message's source.
         </p>
         <p>
           Results show that coordination outcomes do not differ across treatments:
           AI- and human-generated messages are equally effective in promoting
           coordination on the Pareto-dominant equilibrium. Beliefs about other
-          players’ behavior are also unaffected by the source of the message,
+          players' behavior are also unaffected by the source of the message,
           suggesting that delegation to AI does not undermine strategic
-          communication or followers’ trust in successful coordination.
+          communication or followers' trust in successful coordination.
         </p>
       </div>
     </details>
@@ -98,4 +100,50 @@ permalink: /working-papers/
     </div>
   </li>
 
+</ul>
+
+<h2>Publications</h2>
+
+<ul class="publication-list">
+  <li class="publication-item">
+    <h3 class="publication-title">
+      Favouring Tax Compliance Through a Simple Automatic Payment Option: Evidence from a Lab Experiment
+    </h3>
+
+    <p class="publication-meta">
+      Domenico Colucci, Patrizia Lattarulo, Damiano Paoli, Maria Grazia Pazienza, Vincenzo Valori
+    </p>
+
+    <p class="publication-meta"><em>Italian Economic Journal, 2026.</em></p>
+
+    <details class="publication-details">
+      <summary class="publication-summary">Abstract</summary>
+      <div class="publication-abstract">
+        <p>
+          This study investigates whether reducing compliance costs can improve tax
+          compliance. We focus on the impact of automatic payment systems on tax
+          evasion, with the aim of providing evidence relevant for minor indirect
+          taxes, such as the vehicle tax collected by regional governments in Italy.
+        </p>
+        <p>
+          We design a laboratory experiment in which subjects play a Tax Evasion
+          Game. Participants receive a fixed endowment and perform a real-effort task
+          under time pressure, during which they can earn additional income but are
+          required to pay a tax. While evasion yields a higher expected payoff than
+          compliance, it entails the risk of a substantial fine if detected.
+        </p>
+        <p>
+          In the treatment condition, we introduce an automatic payment option that
+          allows participants to commit to paying the tax before starting the task.
+          We find that reducing the non-monetary burden of compliance significantly
+          increases tax compliance. Finally, we elicit individual risk preferences
+          and show that they do not account for the treatment effect.
+        </p>
+      </div>
+    </details>
+    <div class="publication-links">
+      <a href="https://doi.org/10.1007/s40797-025-00359-w" target="_blank" rel="noopener noreferrer">DOI</a>
+      <a href="https://rdcu.be/e1evS" target="_blank" rel="noopener noreferrer">PDF view</a>
+    </div>
+  </li>
 </ul>
