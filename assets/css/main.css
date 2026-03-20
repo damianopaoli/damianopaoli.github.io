@@ -508,13 +508,11 @@ img {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 3rem;
-  padding: 2rem;
-  background-color: var(--secondary-color);
-  border-radius: 5px;
+  padding: 2rem 0;
 }
 
 .profile-image {
-  flex: 0 0 300px;
+  flex: 0 0 220px;
   margin-right: 2rem;
   margin-bottom: 1rem;
   max-width: 100%;
@@ -522,12 +520,11 @@ img {
 
 .profile-image img {
   width: 100%;
-  max-width: 300px;
+  max-width: 220px;
   height: auto;
-  border-radius: 0%;
+  border-radius: 4px;
   object-fit: cover;
-  border: 3px solid white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   display: block;
 }
 
@@ -852,7 +849,7 @@ img {
   .profile-section {
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem 0;
   }
 
   .profile-image {
@@ -863,7 +860,7 @@ img {
   }
 
   .profile-image img {
-    max-width: 250px;
+    max-width: 200px;
     margin: 0 auto 1.5rem;
   }
 
