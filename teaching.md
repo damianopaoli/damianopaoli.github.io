@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-### Teaching Assistant  
+## Teaching Assistant
 
 
 **Economics for Policy I**, M.Sc. (School of Transnational Governance)  
