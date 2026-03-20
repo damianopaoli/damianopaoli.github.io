@@ -10,7 +10,7 @@ permalink: /research/
 
   <li class="publication-item">
     <h3 class="publication-title">
-      Human Oversight and Aversion to AI Redistributive Decisions
+      Human Oversight of AI Redistributive Decisions
     </h3>
 
     <p class="publication-meta">
@@ -21,29 +21,26 @@ permalink: /research/
       <summary class="publication-summary">Abstract</summary>
       <div class="publication-abstract">
         <p>
-          In many situations, people make decisions that affect others, and these
-          other-regarding choices are shaped by their fairness preferences. At the
-          same time, artificial intelligence (AI) is increasingly integrated into
-          high-stakes decision-making, making human oversight crucial and
-          normatively required.
+          Artificial intelligence is increasingly integrated into high-stakes decisions—public
+          benefits allocation, hiring, and beyond—making human oversight both practically
+          valuable and normatively required. This paper investigates whether individuals
+          exhibit AI aversion when overseeing redistributive decisions made by an artificial
+          agent, and disentangles two potential mechanisms: the black-box effect, arising
+          from uncertainty about how the AI reaches its decisions, and intrinsic AI aversion,
+          a reluctance to rely on algorithmic judgment.
         </p>
         <p>
-          This paper investigates whether individuals are willing to accept an
-          other-regarding decision made by someone else, and whether they are more
-          or less willing to accept a decision made by an AI system rather than a
-          human. It examines whether redistributive choices are revised
-          differently depending on whether they were made by a human or by AI,
-          and disentangles two behavioral mechanisms: a black-box effect stemming
-          from uncertainty about the AI's decision-making process, and intrinsic
-          AI aversion reflecting a fundamental reluctance to rely on algorithmic
-          judgment.
+          I develop a theoretical framework for the revision of redistributive choices under
+          incomplete information and agent heterogeneity, and test its predictions in a
+          two-session online experiment. The main finding is that subjects do not exhibit AI
+          aversion: participants do not intervene more when they oversee an AI rather than a
+          human, and their decisions are driven by the expected fairness cost of
+          non-intervention rather than by who made the redistribution.
         </p>
         <p>
-          The study combines a stylized theoretical framework of redistributive
-          choice revision under incomplete information with an online experiment.
-          The findings offer policy-relevant insights for oversight strategies and
-          regulatory frameworks—such as the EU AI Act—by identifying behavioral
-          barriers to effective AI integration.
+          The results suggest that human oversight of AI other-regarding decisions is unlikely
+          to generate excessive scrutiny, though this may also limit its effectiveness when AI
+          decisions are biased or mistaken.
         </p>
       </div>
     </details>
