@@ -58,7 +58,7 @@ permalink: /research/
     </p>
 
     <p class="publication-meta">
-      <em>Status: submitted</em>
+      <em>Revise & Resubmit @ JEBO</em>
     </p>
 
     <details class="publication-details">
