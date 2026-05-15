@@ -94,6 +94,7 @@ permalink: /research/
       <a href="https://www.socialscienceregistry.org/trials/12434" target="_blank" rel="noopener noreferrer">
         AEA RCT Registry
       </a>
+      <a href="https://www.dropbox.com/scl/fi/mj8w7tiubnrez1iojiqzb/CLAI_jebo.pdf?rlkey=rtnkj73g8eaduots6odk8d6bu&st=hghx4upv&dl=0" target="_blank" rel="noopener noreferrer">PDF view</a>
     </div>
   </li>
 
