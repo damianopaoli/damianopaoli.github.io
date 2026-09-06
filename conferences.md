@@ -16,7 +16,7 @@ permalink: /conferences/
 ## 2024
 - **Copenhagen Network for Experimental Economics**, Lund University (presenter)
 - **ESA Meeting Europe**, Hanken School of Economics – Helsinki (presenter)
-- **14th ASFEE Conference**, Universitè Grenoble Alpes (poster presentation)
+- **14th ASFEE Conference**, Université Grenoble Alpes (poster presentation)
 
 ## 2023
 - **10th BEEN Meeting**, University of Trento (presenter)

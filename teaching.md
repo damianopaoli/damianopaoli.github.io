@@ -6,16 +6,15 @@ permalink: /teaching/
 
 ## Teaching Assistant
 
-
-**Economics for Policy I**, M.Sc. (School of Transnational Governance)  
-*European University Institute (EUI), Florence*  
-Prof. Daniela Iorio  
-Sep 2025 – ongoing
-
 **Field Experiments for Policy Evaluation**, M.Sc.  
 *Alma Mater Studiorum – Università di Bologna*  
 Prof. Denni Tommasi  
 Apr 2024 – ongoing
+
+**Economics for Policy I**, M.Sc. (School of Transnational Governance)  
+*European University Institute (EUI), Florence*  
+Prof. Daniela Iorio  
+Sep 2025 – Jan 2026
 
 **Microeconomics**, B.Sc. (CLEF)  
 *Alma Mater Studiorum – Università di Bologna*  

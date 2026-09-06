@@ -91,11 +91,10 @@ h1 {
 }
 
 h2 {
-  font-size: 0.75rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--light-text);
+  letter-spacing: -0.01em;
+  color: var(--text-color);
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border-color);
   margin-top: 2.5rem;
@@ -220,6 +219,24 @@ img {
 
 .theme-toggle svg {
   transition: transform 0.3s ease;
+}
+
+/* Show only the icon for the theme you can switch to. Driven by the
+   data-theme attribute so the right icon is painted immediately. */
+.sun-icon {
+  display: none;
+}
+
+.moon-icon {
+  display: inline-block;
+}
+
+[data-theme="dark"] .sun-icon {
+  display: inline-block;
+}
+
+[data-theme="dark"] .moon-icon {
+  display: none;
 }
 
 .theme-toggle:hover svg {
@@ -367,6 +384,10 @@ img {
 }
 
 .site-footer h2 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--light-text);
+  font-size: 0.75rem;
   margin-top: 0;
   border-bottom: none;
   padding-bottom: 0;
@@ -475,6 +496,12 @@ img {
 
 .publication-item {
   padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* no trailing rule under the last item of a section */
+.publication-list .publication-item:last-child {
+  border-bottom: none;
 }
 
 .publication-title {
@@ -483,6 +510,22 @@ img {
   font-weight: 600;
   letter-spacing: -0.01em;
   color: var(--text-color);
+}
+
+/* "Job Market Paper" and similar labels, shown next to a paper title */
+.publication-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1em 0.6em;
+  border: 1px solid var(--primary-dark);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.7;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: var(--primary-dark);
 }
 
 .publication-meta {
@@ -637,3 +680,42 @@ img {
   }
 }
 
+
+/* CV page */
+.cv-viewer {
+  width: 100%;
+  height: 800px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cv-viewer object {
+  width: 100%;
+  height: 100%;
+}
+
+.cv-fallback {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.cv-mobile-note {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile browsers render an inline PDF as a blank box, so link to it instead. */
+  .cv-viewer {
+    display: none;
+  }
+
+  .cv-mobile-note {
+    display: block;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: var(--light-text);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+  }
+}
