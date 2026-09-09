@@ -267,5 +267,15 @@
 
       });
     </script>
+
+    {% if site.goatcounter_site %}
+    <!-- Privacy-friendly analytics (goatcounter.com). Elements with
+         data-goatcounter-click get their clicks tracked as named events. -->
+    <script
+      data-goatcounter="https://{{ site.goatcounter_site }}.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+    {% endif %}
   </body>
 </html>
