@@ -26,7 +26,7 @@ google_site_verification: MYTbOgwKApVFN_MiLnhAbggeJZbeh30MkuW1pq1KyFA
 # Privacy-friendly pageview/click analytics (https://www.goatcounter.com).
 # Set this to your GoatCounter site code (the part before ".goatcounter.com"
 # once you create a free account) to enable tracking site-wide.
-goatcounter_site: # e.g. "demplas"
+goatcounter_site: demplas
 
 # Informazioni di contatto
 email: damiano.paoli3@unibo.it
