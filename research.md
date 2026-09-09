@@ -50,10 +50,10 @@ permalink: /research/
       </div>
     </details>
     <div class="publication-links">
+      <a href="https://www.dropbox.com/scl/fi/n4tilqhpfsp1kt4ubndfr/human_oversight_AI_redistributive_decisions_Paoli.pdf?rlkey=bngx6qy2ewlpxuqtpw3e2yfr5&st=pp2iqv7z&dl=0" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-human-oversight-ai">PDF</a>
       <a href="https://www.socialscienceregistry.org/trials/16680" target="_blank" rel="noopener noreferrer">
         AEA RCT Registry
       </a>
-      <a href="https://www.dropbox.com/scl/fi/n4tilqhpfsp1kt4ubndfr/human_oversight_AI_redistributive_decisions_Paoli.pdf?rlkey=bngx6qy2ewlpxuqtpw3e2yfr5&st=pp2iqv7z&dl=0" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-human-oversight-ai">PDF view</a>
     </div>
   </li>
 
@@ -105,10 +105,10 @@ permalink: /research/
       </div>
     </details>
     <div class="publication-links">
+      <a href="https://www.dropbox.com/scl/fi/mj8w7tiubnrez1iojiqzb/CLAI_jebo.pdf?rlkey=rtnkj73g8eaduots6odk8d6bu&st=hghx4upv&dl=0" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-coordination-leadership-ai">PDF</a>
       <a href="https://www.socialscienceregistry.org/trials/12434" target="_blank" rel="noopener noreferrer">
         AEA RCT Registry
       </a>
-      <a href="https://www.dropbox.com/scl/fi/mj8w7tiubnrez1iojiqzb/CLAI_jebo.pdf?rlkey=rtnkj73g8eaduots6odk8d6bu&st=hghx4upv&dl=0" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-coordination-leadership-ai">PDF view</a>
     </div>
   </li>
   <li class="publication-item">
@@ -149,7 +149,10 @@ permalink: /research/
     </details>
     <div class="publication-links">
       <a href="https://doi.org/10.1007/s40797-025-00359-w" target="_blank" rel="noopener noreferrer">DOI</a>
-      <a href="https://rdcu.be/e1evS" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-tax-compliance">PDF view</a>
+      <a href="https://rdcu.be/e1evS" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-tax-compliance">PDF</a>
+      <a href="https://www.socialscienceregistry.org/trials/13243" target="_blank" rel="noopener noreferrer">
+        AEA RCT Registry
+      </a>
     </div>
   </li>
 </ul>
