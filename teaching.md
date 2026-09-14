@@ -14,7 +14,8 @@ Apr 2024 – ongoing
 **Economics for Policy I**, M.Sc. (School of Transnational Governance)  
 *European University Institute (EUI), Florence*  
 Prof. Daniela Iorio  
-Sep 2025 – Jan 2026
+Sep 2025 – Jan 2026  
+[Student feedback (PDF)](/assets/teaching/economics-for-policy-i-stg-feedback.pdf){:data-goatcounter-click="ta-feedback-epi-stg"}
 
 **Microeconomics**, B.Sc. (CLEF)  
 *Alma Mater Studiorum – Università di Bologna*  
@@ -34,4 +35,5 @@ Apr 2024 – ongoing
 **International Economics I**, M.Sc.  
 *Johns Hopkins University – SAIS Europe (Bologna)*  
 Prof. Anna Maria Mayda  
-Sep 2023 – Dec 2023
+Sep 2023 – Dec 2023  
+[Student feedback (PDF)](/assets/teaching/international-economics-i-feedback.pdf){:data-goatcounter-click="ta-feedback-ie1"}
