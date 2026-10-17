@@ -25,27 +25,32 @@ permalink: /research/
           Artificial intelligence is increasingly integrated into high-stakes decisions,
           from benefits allocation to hiring and healthcare, promising substantial
           efficiency gains. Human oversight of consequential AI decisions is already
-          required by law, but its effectiveness is not guaranteed. If individuals harbor
-          reservations about AI judgment, they may scrutinize AI decisions excessively,
+          required by law, but its effectiveness is not guaranteed. If individuals are
+          skeptical about AI judgment, they may scrutinize AI decisions excessively,
           offsetting the efficiency gains that motivated adoption; if they defer
           automatically, the oversight mechanism fails.
         </p>
         <p>
-          This paper investigates whether individuals exhibit AI aversion when overseeing
-          other-regarding decisions made by an artificial agent. I seek to disentangle two
-          potential mechanisms: the black-box effect, arising from uncertainty about the
-          AI's decision process, and intrinsic AI aversion, a fundamental reluctance to
-          defer to algorithmic judgment. I develop a theoretical framework for the
-          oversight of redistributive choices of humans and artificial agents, and test its
-          predictions in a two-session online experiment.
+          This paper investigates whether people oversee other-regarding decisions made by
+          an artificial agent differently from the same decisions made by a human. I develop
+          a theoretical framework for how people revise redistributive decisions made by
+          humans and by artificial agents, and test its predictions in two pre-registered
+          online experiments with samples representative of the U.S. population. In both
+          experiments, two workers initially receive unequal earnings, either because one
+          performed better in a real-effort task or because one won a lottery, and a
+          third-party spectator, either a human or an artificial agent based on a large
+          language model, can redistribute the workers' earnings. Then, another impartial
+          participant, the reviewer, observes the allocation made by the spectator and
+          decides whether to pay a fee to overturn it. In the first experiment, reviewers do
+          not know whether the inequality came from merit or luck; in the second, they do.
         </p>
         <p>
-          The main finding is that participants do not exhibit AI aversion: they do not
-          intervene more when overseeing an AI rather than a human, and their decisions are
-          driven by the expected fairness cost of non-intervention rather than by the
-          identity of the agent. These results suggest that human oversight of AI
-          redistributive decisions is unlikely to generate excessive scrutiny, though this
-          may also limit its effectiveness when AI decisions are biased or mistaken.
+          In both experiments, reviewers intervene more when the fairness loss from leaving
+          the allocation in place is higher, but they do not intervene more when the
+          spectator is an AI, ruling out AI aversion. Human oversight is therefore unlikely
+          to generate excessive scrutiny driven by an intrinsic reluctance to defer to
+          algorithmic judgment, though for the same reason overseers cannot be expected to
+          be more vigilant just because the decision-maker is a machine.
         </p>
       </div>
     </details>
