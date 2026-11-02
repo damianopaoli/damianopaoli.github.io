@@ -117,19 +117,12 @@ title: Home
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            fill="currentColor"
           >
+            <title>Google Scholar</title>
             <path
-              d="M21.08 7.57c1.14.56 1.14 2.31 0 2.87l-8.94 4.43c-.22.11-.47.11-.69 0L2.51 10.44c-1.14-.56-1.14-2.31 0-2.87l8.94-4.43c.22-.11.47-.11.69 0l8.94 4.43z"
+              d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"
             />
-            <path
-              d="M19.34 11.07v4.36c0 1.68-1.36 3.05-3.05 3.05H7.71c-1.68 0-3.05-1.36-3.05-3.05v-4.36"
-            />
-            <path d="M9.95 17.81v-5.44l2.05 1.54 2.05-1.54v5.44" />
           </svg>
         </a>
         {% endif %} {% if site.social_links.orcid %}
@@ -144,18 +137,18 @@ title: Home
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
           >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
-            />
-            <circle cx="12" cy="7" r="1" />
-            <path d="M9 12h3v7" />
-            <path d="M15 12h-3" />
+            <title>ORCID</title>
+            <circle cx="12" cy="12" r="11" fill="currentColor" />
+            <text
+              x="12"
+              y="16.2"
+              text-anchor="middle"
+              font-family="Arial, Helvetica, sans-serif"
+              font-size="11.5"
+              font-weight="700"
+              style="fill: var(--bg-color)"
+            >iD</text>
           </svg>
         </a>
         {% endif %} {% if site.social_links.researchgate %}
@@ -191,6 +184,25 @@ title: Home
     <div class="bio">{{ site.bio }}</div>
   </div>
 
+  <section class="content-section job-market">
+    <h2>Job Market Paper</h2>
+    <h3 class="publication-title">Human Oversight of AI Redistributive Decisions</h3>
+    <p>
+      Human oversight of consequential AI decisions is required by law, but does it work?
+      In two pre-registered online experiments with representative U.S. samples, I study
+      whether people oversee redistributive decisions made by an AI differently from the same
+      decisions made by a human. Overseers judge the decision, not the decision-maker: they do
+      not intervene more when the decision-maker is an AI. When they lack information, however,
+      they misjudge how the AI decides, intervening unnecessarily on AI decisions and missing
+      interventions on human ones.
+    </p>
+    <div class="publication-links">
+      <a href="https://www.dropbox.com/scl/fi/n4tilqhpfsp1kt4ubndfr/human_oversight_AI_redistributive_decisions_Paoli.pdf?rlkey=bngx6qy2ewlpxuqtpw3e2yfr5&st=pp2iqv7z&dl=0" target="_blank" rel="noopener noreferrer" data-goatcounter-click="home-jmp-pdf">Paper (PDF)</a>
+      <a href="/research/">Abstract</a>
+      <a href="/cv/" data-goatcounter-click="home-cv">CV</a>
+    </div>
+  </section>
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -204,7 +216,7 @@ title: Home
       },
       "url": "{{ site.url }}",
       "image": "{{ '/assets/img/foto_profilo.jpg' | absolute_url }}",
-      "description": "{{ site.bio | strip_html | strip_newlines | escape }}",
+      "description": "{{ site.bio | replace: '</p>', ' ' | strip_html | strip_newlines | strip | escape }}",
       "sameAs": [
         "https://twitter.com/{{ site.social_links.twitter }}",
         "https://www.linkedin.com/in/{{ site.social_links.linkedin }}",
@@ -213,10 +225,10 @@ title: Home
       "knowsAbout": [
         "Experimental Economics",
         "Behavioral Economics",
-        "Coordination Dilemmas",
-        "Public Goods Games",
         "Fairness",
+        "Coordination",
         "Artificial Intelligence",
+        "Human Oversight of AI",
         "Human-Machine Interaction"
       ],
       "alumniOf": {

@@ -7,6 +7,7 @@ permalink: /conferences/
 
 ## 2026
 - **3rd Tor Vergata Ph.D. Conference in Economics**, University of Rome Tor Vergata (presenter, scheduled)
+- **Behavioral and Experimental Economics Job Market Workshop**, Center for Behavioral Institutional Design (C-BID), NYU Abu Dhabi (presenter, scheduled)
 - **Workshop on Inequality and Discrimination**, BEELab+, University of Florence (presenter)
 - **19th Workshop on Social Economy for Young Economists**, University of Bologna (Forlì campus) (presenter)
 - **Spring School in Behavioural Economics**, RADY School of Management, UC San Diego; organized by Rady and FAIR (poster presentation)

@@ -13,7 +13,7 @@
   --warning-color: #ff9800;
   --error-color: #f44336;
   --spacing-unit: 30px;
-  --content-width: 860px;
+  --content-width: 780px;
   --card-bg: #ffffff;
   --header-bg: #ffffff;
   --footer-bg: #f5f5f5;
@@ -57,6 +57,14 @@ body {
   line-height: 1.6;
   background-color: var(--bg-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+  /* keep the footer at the bottom of the window on short pages */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1 0 auto;
 }
 
 .container {
@@ -206,7 +214,7 @@ img {
   background: none;
   border: none;
   cursor: pointer;
-  margin-right: 20px;
+  margin-left: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -362,53 +370,27 @@ img {
     align-items: center;
     gap: 1rem;
   }
+
+  /* on phones keep the toggle to the left of the hamburger */
+  .theme-toggle {
+    order: -1;
+  }
 }
 
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border-color);
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   background-color: var(--footer-bg);
   margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--light-text);
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-.footer-col-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-}
-
-.footer-col {
-  flex: 1;
-  min-width: 250px;
-  padding-right: 1rem;
-  margin-bottom: 2rem;
-}
-
-.site-footer h2 {
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--light-text);
-  font-size: 0.75rem;
-  margin-top: 0;
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0.75rem;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer-bottom {
-  border-top: 1px solid var(--border-color);
-  padding-top: 1rem;
-  text-align: center;
-  color: var(--light-text);
+.site-footer p {
+  margin: 0;
 }
 
 
@@ -490,6 +472,32 @@ img {
 .bio {
   line-height: 1.8;
   font-size: 1rem;
+}
+
+.bio p {
+  margin-bottom: 1rem;
+}
+
+.bio p:last-child {
+  margin-bottom: 0;
+}
+
+/* Job market paper box on the home page */
+.job-market {
+  padding: 1rem 1.25rem;
+  background-color: var(--abstract-bg);
+  border: 1px solid var(--abstract-border);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.job-market h2 {
+  margin-top: 0;
+}
+
+.job-market p {
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
 }
 
 /* Publications */
@@ -685,10 +693,6 @@ img {
 
   .social-links {
     justify-content: center;
-  }
-
-  .footer-col-wrapper {
-    flex-direction: column;
   }
 }
 

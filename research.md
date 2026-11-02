@@ -14,50 +14,46 @@ permalink: /research/
       <span class="publication-badge">Job Market Paper</span>
     </h3>
 
-    <p class="publication-meta">
-      Damiano Paoli
-    </p>
-
     <details class="publication-details">
       <summary class="publication-summary">Abstract</summary>
       <div class="publication-abstract">
         <p>
-          Artificial intelligence is increasingly integrated into high-stakes decisions,
-          from benefits allocation to hiring and healthcare, promising substantial
-          efficiency gains. Human oversight of consequential AI decisions is already
-          required by law, but its effectiveness is not guaranteed. If individuals are
-          skeptical about AI judgment, they may scrutinize AI decisions excessively,
-          offsetting the efficiency gains that motivated adoption; if they defer
-          automatically, the oversight mechanism fails.
+          Human oversight of consequential AI decisions is required by law, but its
+          effectiveness is not guaranteed: overseers who distrust AI may scrutinize AI
+          decisions excessively, offsetting the efficiency gains that motivated adoption,
+          while overseers who defer automatically make oversight ineffective.
         </p>
         <p>
-          This paper investigates whether people oversee other-regarding decisions made by
-          an artificial agent differently from the same decisions made by a human. I develop
-          a theoretical framework for how people revise redistributive decisions made by
-          humans and by artificial agents, and test its predictions in two pre-registered
-          online experiments with samples representative of the U.S. population. In both
-          experiments, two workers initially receive unequal earnings, either because one
-          performed better in a real-effort task or because one won a lottery, and a
-          third-party spectator, either a human or an artificial agent based on a large
-          language model, can redistribute the workers' earnings. Then, another impartial
-          participant, the reviewer, observes the allocation made by the spectator and
-          decides whether to pay a fee to overturn it. In the first experiment, reviewers do
-          not know whether the inequality came from merit or luck; in the second, they do.
+          This paper asks whether people oversee other-regarding decisions made by an AI
+          differently from the same decisions made by a human. I develop a theoretical
+          framework for the revision of redistributive decisions and test its predictions in
+          two pre-registered online experiments with representative U.S. samples. Two workers
+          receive unequal earnings, assigned by merit (performance in a real-effort task) or
+          by luck (a lottery). A third party, the spectator, either a human or an AI agent
+          based on a large language model, can redistribute the workers' earnings. Another
+          participant, the reviewer, observes the spectator's allocation and can pay a fee to
+          overturn it. The reviewer does not know whether the inequality came from merit or
+          luck in the first experiment, and knows it in the second.
         </p>
         <p>
-          In both experiments, reviewers intervene more when the fairness loss from leaving
-          the allocation in place is higher, but they do not intervene more when the
-          spectator is an AI, ruling out AI aversion. Human oversight is therefore unlikely
-          to generate excessive scrutiny driven by an intrinsic reluctance to defer to
-          algorithmic judgment, though for the same reason overseers cannot be expected to
-          be more vigilant just because the decision-maker is a machine.
+          In both experiments, reviewers intervene more when the moral cost of leaving the
+          spectator's allocation in place is higher, but not more when the spectator is an
+          AI, which rules out AI aversion. Overseers judge the decision itself rather than
+          the nature, human or artificial, of the decision-maker. Under incomplete
+          information, however, reviewers misjudge how the AI decides, so they intervene
+          unnecessarily on AI decisions and miss interventions on human ones. Oversight of AI
+          is therefore unlikely to be excessive out of aversion to machines, but its quality
+          depends on what overseers know about how the AI decides.
         </p>
       </div>
     </details>
     <div class="publication-links">
       <a href="https://www.dropbox.com/scl/fi/n4tilqhpfsp1kt4ubndfr/human_oversight_AI_redistributive_decisions_Paoli.pdf?rlkey=bngx6qy2ewlpxuqtpw3e2yfr5&st=pp2iqv7z&dl=0" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-pdf-human-oversight-ai">PDF</a>
       <a href="https://www.socialscienceregistry.org/trials/16680" target="_blank" rel="noopener noreferrer">
-        AEA RCT Registry
+        AEA RCT Registry (Exp. 1)
+      </a>
+      <a href="https://www.socialscienceregistry.org/trials/19498" target="_blank" rel="noopener noreferrer">
+        AEA RCT Registry (Exp. 2)
       </a>
     </div>
   </li>
@@ -73,9 +69,7 @@ permalink: /research/
     </h3>
 
     <p class="publication-meta">
-      <a href="https://www.unibo.it/sitoweb/maria.bigoni/en" target="_blank" rel="noopener noreferrer">
-        Maria Bigoni
-      </a>, Damiano Paoli
+      <a href="https://www.unibo.it/sitoweb/maria.bigoni/en" target="_blank" rel="noopener noreferrer">Maria Bigoni</a>, Damiano Paoli
     </p>
 
     <p class="publication-meta"><em>Journal of Economic Behavior &amp; Organization, 2026.</em></p>
