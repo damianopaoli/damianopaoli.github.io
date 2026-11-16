@@ -482,6 +482,11 @@ img {
   margin-bottom: 0;
 }
 
+.job-market-intro {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
 /* Job market paper box on the home page */
 .job-market {
   padding: 1rem 1.25rem;
